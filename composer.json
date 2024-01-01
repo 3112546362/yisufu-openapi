@@ -3,7 +3,7 @@
     "description": "易速付聚合支付平台 PHP SDK，官方最新版本，支持MD5和RSA2签名模式。",
     "license": "MIT",
     "minimum-stability": "dev",
-	"prefer-stable": true,
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Langhanyun\\YisufuOpenapi\\": "src/"
