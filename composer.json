@@ -2,8 +2,6 @@
     "name": "langhanyun/yisufu-openapi",
     "description": "易速付聚合支付平台 PHP SDK，支持MD5和RSA2签名模式。",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "version":"1.0",
     "autoload": {
         "psr-4": {
             "Langhanyun\\YisufuOpenapi\\": "src/"
