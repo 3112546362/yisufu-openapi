@@ -16,6 +16,6 @@
             "email": "yisufu@126.com"
         }
     ],
-    "require": {"php": ">=7.1","ext-json": "*", "ext-curl": "*", "ext-openssl": "*"},
-    "version": "1.0.0"
+    "require": {"php": ">=7.1","ext-json": "*", "ext-curl": "*", "ext-openssl": "*"}
+    
 }
