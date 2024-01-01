@@ -1,0 +1,17 @@
+{
+    "name": "langhanyun/yisufu-openapi",
+    "description": "易速付聚合支付平台 PHP SDK，官方最新版本，支持MD5和公钥2种签名模式。",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Langhanyun\\YisufuOpenapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "秋",
+            "email": "yisufu@126.com"
+        }
+    ],
+    "require": {"php": ">=7.1","ext-json": "*", "ext-curl": "*", "ext-openssl": "*"}
+}
