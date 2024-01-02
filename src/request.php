@@ -68,7 +68,7 @@ class request{
         
         // res_body 格式化json
         ksort($param['res_body']);
-        $param['res_body'] = json_encode($param['res_body']);
+        $param['res_body'] = json_encode($param['res_body'], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
         
         $sign = new sign;
         $param['sign'] = $sign->sign_value($param,$config);
