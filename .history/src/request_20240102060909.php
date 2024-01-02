@@ -1,7 +1,7 @@
 <?php
 
 namespace Langhanyun\YisufuOpenapi;
-
+include_once('src/sign.php');
 
 class request{
     
