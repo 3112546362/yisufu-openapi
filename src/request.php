@@ -28,8 +28,7 @@ class request{
     
     public $isError = false;
     public $ErrorMessage = '';
-    public $request_data = [];
-    
+
     public  $request_body = [];
     /**
      * @var mixed
@@ -68,6 +67,7 @@ class request{
         
         // res_body 格式化json
         ksort($param['res_body']);
+        
         $param['res_body'] = json_encode($param['res_body'], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
         
         $sign = new sign;
@@ -107,7 +107,8 @@ class request{
         return $output;
     }
     
-    public function order_status($status){
+    public function order_status($status): string
+    {
         return $status == '1' ? '支付成功' : '等待付款';
     }
     
